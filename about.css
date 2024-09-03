@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    list-style: none;
+    z-index: 1000;
+}
+
+#navbar ul li{
+    height:40px;
+    background-color: black;
+    text-align: center;
+    width: 275px;
+    float: left;
+    line-height: 40px;
+    border: 2px solid white;
+    position: relative;
+   
+}
+.topcat{
+    height: 500px;
+    border: 0px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.topcatpro{
+    border: 0px solid black;
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px 5px rgb(57, 56, 56);
+    transition: transform 1s;
+}
+.topcatpro:hover{
+    transform: scale(1.1);
+}
+.topcatpro img{
+    width: 100%;
+}
+.checked{
+    color: rgb(255, 166, 0);
+}
+.starr{
+    height: 20px;
+    align-items: center;
+    border: 0px solid black
+    display: flex;
+    justify-content: center;
+
+}
+.p{
+    text-align: justify;
+    margin-left: 15px;
+}

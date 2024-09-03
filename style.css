@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar ul{
+    list-style: none;
+    z-index: 1000;
+}
+
+#navbar ul li{
+    height:40px;
+    background-color: black;
+    text-align: center;
+    width: 275px;
+    float: left;
+    line-height: 40px;
+    border: 2px solid white;
+    position: relative;
+   
+}
+ #navbar ul li a{
+    text-decoration:none ;
+    color:white;
+ }
+
+ #navbar ul li a:hover {
+    background-color: rgb(26, 99, 53);
+ }
+
+#navbar ul ul
+{
+    display: none;
+    position: absolute;
+}
+    #navbar ul li:hover>ul
+    {
+        display: block;
+    } 
+ 

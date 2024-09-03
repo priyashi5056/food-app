@@ -1,0 +1,16 @@
+.footer{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.footerb{
+    height: 180px;
+    width: 250%;
+    border: 2px solid none;
+    float: left;
+    color: white;
+    text-align: center;
+}
